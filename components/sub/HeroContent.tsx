@@ -30,10 +30,10 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-2xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-2xl lg:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span
-            className="text-transparent bg-clip-text text-4xl bg-gradient-to-r from-purple-500 to-cyan-500"
+            className="text-transparent bg-clip-text text-4xl lg:text-6xl bg-gradient-to-r from-purple-500 to-cyan-500"
             style={{
               backgroundColor: "#FA8BFF",
               backgroundImage:
@@ -54,7 +54,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg w-[260px]  text-gray-400 my-5 max-w-[600px]"
+          className="text-lg w-[260px] lg:w-[600px]  text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.

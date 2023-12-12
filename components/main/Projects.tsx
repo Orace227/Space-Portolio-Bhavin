@@ -4,7 +4,7 @@ import ProjectCard from "../sub/ProjectCard";
 const projectData = [
   {
     src: "/project1.png",
-    link: "https://travelling-cms-frontend.vercel.app/",
+    link: "https://client-cms.vercel.app/",
     title: "Travelling CMS Landing Page",
     description:
       "It is a landing page for Travelling CMS where customers can access all the packages that have been created by Admin.",
@@ -12,7 +12,7 @@ const projectData = [
   },
   {
     src: "/project1.1.png",
-    link: "https://client-cms.vercel.app/",
+    link: "https://travelling-cms-frontend.vercel.app/",
     title: "Travelling CMS Admin Panel",
     description:
       "It is our client's project in it we have to make a content Management system for them. Admin can create Packages and show it on the website for customers.",

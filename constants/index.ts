@@ -87,6 +87,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+
     {
       skill_name: "Css",
       Image: "/css.png",
@@ -102,6 +103,12 @@ export const Skill_data = [
     {
       skill_name: "Tailwind Css",
       Image: "/tailwind.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "framer motion",
+      Image: "/framerMotion.png",
       width: 80,
       height: 80,
     },

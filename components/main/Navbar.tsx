@@ -18,12 +18,12 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            BHAVIN PRAJAPATI
+          <span className="font-bold ml-[10px] text-transparent bg-clip-text  bg-gradient-to-r from-purple-500 to-cyan-500">
+            Bhavin Prajapati.
           </span>
         </a>
-
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        {/* <div className="hidden md:block"> */}
+        <div className="w-[500px]  relative left-5 h-full md:flex flex-row items-center justify-between md:mr-20 hidden">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About me
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5 ">
+        <div className="flex flex-row gap-5  ">
           {Socials.map((social) => (
             <a
               href={social.Link} // Assuming each 'Social' object has an 'instagram' property
@@ -48,12 +48,13 @@ const Navbar = () => {
               <Image
                 src={social.src}
                 alt={social.name}
-                width={24}
-                height={24}
+                width={26}
+                height={26}
               />
             </a>
           ))}
         </div>
+        {/* </div> */}
       </div>
     </div>
   );

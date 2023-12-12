@@ -69,7 +69,7 @@ export const Skill_data = [
     {
       name: "LinkedIn",
       Link:"https://www.linkedin.com/in/bhavin-prajapati-b8476b275/",
-      src: "/Linkedin.svg",
+      src: "/linkedin.svg",
     },
     {
       name: "Instagram",
@@ -170,7 +170,7 @@ export const Skill_data = [
   export const Full_stack = [
     {
       skill_name: "React Native",
-      Image: "/Reactnative .png",
+      Image: "/ReactNative.png",
       width: 70,
       height: 70,
     },
